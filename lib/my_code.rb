@@ -6,7 +6,7 @@ def test(array)
     yield 
     i += 1
   end
-  return new
+  new
 end   
 
 test(array) do |origarray|
