@@ -9,3 +9,6 @@ def map(array)
   newarray
 end   
 
+def reduce
+  
+end   
