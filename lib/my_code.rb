@@ -1,5 +1,5 @@
 # Your Code Here
-def test(array)
+def map(array)
   new = []
   i = 0
   while i < source_array.length do
