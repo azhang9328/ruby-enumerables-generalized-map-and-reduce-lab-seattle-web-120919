@@ -9,7 +9,7 @@ def map(array)
   newarray
 end   
 
-def reduce(array, starting_point)
+def reduce(array, starting_point = 0)
   i = 0
   total = 0 
   while i < array.length do
