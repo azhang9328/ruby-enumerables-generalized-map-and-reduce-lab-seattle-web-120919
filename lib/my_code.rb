@@ -9,9 +9,13 @@ def map(array)
   newarray
 end   
 
-def reduce(array, starting_point = 0)
+def reduce(array, starting_point = nil)
   i = 0
-  total = 0 + starting_point
+  if starting_point
+    total = 0 + starting_point
+    else
+    total = 0   
+  end    
   while i < array.length do
     total = yield(total, array[i])
     puts array[i]
