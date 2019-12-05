@@ -9,6 +9,6 @@ def test(array)
   return new
 end   
 
-test() do 
+test() do |lo|
   
 end   
