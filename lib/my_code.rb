@@ -9,6 +9,6 @@ def test(array)
   return new
 end   
 
-test() do |lo|
-  
+test(array) do |origarray|
+  new.push( source_array[i] * -1 )
 end   
